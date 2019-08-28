@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul{
+    display: flex;
+    }
+    li{
+        width: 200px;
+        line-height: 40px;
+        background: gold;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    li.active{
+        background: pink;
+    }
+    .father{
+        position: relative;
+    }
+    .father p{
+        width: 600px;
+        height: 380px;
+        background: rgb(255, 249, 169);
+        position: absolute;
+        top: 0px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 50px;
+       
+        display: none;
+        
+    }
+    .father .active{
+       
+        display: block;
+    }
+
+    </style>
+</head>
+<body>
+        <ul>
+            <li zfc="0" class="active">绿色</li>
+            <li zfc="1">情深深雨蒙蒙</li>
+            <li zfc="2">来自天堂的魔鬼</li>
+        </ul>
+    <div class="father">
+    <p class="active">若不是你突然闯进 我生活</p>
+    <p>情深深雨濛濛</p>
+    <p> 夜里做了美丽的恶梦</p>
+    </div>
+    <script>
+        var lis=document.getElementsByTagName('li')
+        var ps=document.getElementsByTagName('p')
+        console.log(lis)
+        for(var i=0;i<lis.length;i++){
+            lis[i].onclick=function(){
+                for(var i=0;i<lis.length;i++){
+                    lis[i].className=''
+                    ps[i].className=''
+                }
+               this.className='active'
+               var i=this.getAttribute('zfc')
+               ps[i].className='active'
+        }
+        }
+    
+    
+    </script>
+</body>
+</html>

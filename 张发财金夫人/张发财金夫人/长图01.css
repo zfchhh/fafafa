@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f1{
+    margin: 0 auto;
+}
+.f2{
+    float: left;
+}
+.f3{
+    float: right;
+}
+
+/* 头部 */
+header{
+    width: 1200px;
+    height: 115px;
+    /* background-color: aquamarine; */
+}
+.logo{
+    margin-top: 4px;
+}
+nav{
+    width: 735px;
+    height: 115px;
+    position: relative;
+}
+nav input{
+    width: 220px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid #333333;
+    margin-right: 50px;
+    margin-top: 14px;
+    color: #999999;
+    padding-left: 7px;
+    font-size: 14px;
+}
+i{
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    color: #a2a2a2;
+    
+}
+nav span{
+    color: #343434;
+    font-size: 16px;
+}
+.nav{
+    width: 735px;
+    height: 35px;
+    margin-top: 60px;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.nav ul li{
+    height: 37px;
+    line-height: 35px;
+}
+.nav ul li a{
+     color: #333333;
+      text-decoration: none;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #850913;
+   
+}
+
+
+/* 轮播图 */
+.map{
+    position: relative;
+    height: 350px;
+
+}
+.map img{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 2s all;
+}
+.map img.active{
+    opacity: 1;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+    border-radius: 50px;
+}
+button:nth-child(5){
+    position: absolute;
+    top: 160px;
+}
+button:nth-child(6){
+    position: absolute;
+    top: 160px;
+    right: 0px;
+}
+
+
+/* 公司简介 */
+.company{
+    width: 1200px;
+    height: 705px;
+   
+    
+    /* background-color: pink; */
+}
+.border{
+    width: 1130px;
+    height: 465px;
+    border: 1px solid #850913;
+    margin-top: 145px;
+     position: relative;
+}
+
+.title{
+    height: 60px;
+    border: 1px solid #850913;
+    border-top: none;
+    width: 214px;
+    position: absolute;
+    top: -35px;
+    left: 800px;
+    background: #fff;
+}
+.title div{
+    width: 50px;
+    height: 1px;
+    background-color: #850913;
+    margin-top: 5px;
+}
+.title p:nth-child(3){
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 65px;
+    color: #333333;
+    font-weight: bolder;
+}
+.title p:last-child{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+}
+.referral{
+    width: 680px;
+    height: 420px;
+    background: #999999;
+    position: absolute;
+    top: 65px;
+    left: 520px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.border img{
+    width: 562px;
+    height: 470px;
+    position: absolute;
+    top: -42px;
+    left: 42px;
+}
+.referral span{
+    font-size: 16px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    float: left;
+}
+.referral span:nth-child(1){
+    margin-left: 100px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.referral span:nth-child(3){
+   float: right;
+   margin-right: 15px;
+}
+.bottom{
+    width: 560px;
+    height: 260px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.bottom p{
+    
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+
+
+/* 拍摄基地 */
+.shoot{
+    width: 1200px;
+    height: 830px;
+
+    position: relative;
+}
+.shoot-one{
+    width: 1200px;
+    height: 166px;
+    
+}
+.shoot-one p{
+    font-size: 20px;
+    line-height: 166px;
+    text-align: center;
+    color: #343434;
+}
+.shoot-one div{
+    width: 120px;
+    height: 1px;
+    background: #850913;
+    position: absolute;
+    top: 105px;
+    left: 537px;
+}
+.shoot-two{
+    width: 305px;
+    height: 520px;
+    background: #ffc0c5;
+}
+.shoot-three{
+    width: 262px;
+    height: 520px;
+    margin-right: 40px;
+    text-align: center;
+    margin-left: 30px;
+}
+.shoot-three h2{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.shoot-three p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.shoot-five{
+    width: 262px;
+    height: 520px;
+    margin-right: 34px;
+  
+    text-align: center;
+}
+.shoot-five h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.shoot-five p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.shoot-five img{
+    margin-top: 18px;
+}
+.shoot-four{
+    width: 260px;
+    height: 520px;
+    text-align: center;
+}
+.shoot-four h2{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.shoot-four p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.shoot input{
+    width: 152px;
+    height: 38px;
+    background-color: #850913;
+    color: white;
+    position: absolute;
+    top: 735px;
+    left: 518px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+}
+
+
+
+
+/*  真实客照 */ 
+.photograph{
+    width: 1200px;
+    height: 695px;
+    
+}
+
+.photograph-one{
+    width: 1200px;
+    height: 196px;
+
+    position: relative;
+}
+.photograph-one p{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 18px;
+}
+.photograph-one div{
+    width: 119px;
+    height: 1px;
+    background: #850913;
+    position: absolute;
+    top: 155px;
+    left: 537px;
+}
+.photograph-three{
+    width: 1200px;
+    height: 375px;
+    background-color: #850913;
+    position: relative;
+}
+.photograph-three img{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.photograph-five{
+    width: 665px;
+    height: 375px;
+  
+    color: white;
+    margin-right: 30px;
+}
+
+.photograph-even{
+    width: 665px;
+    height: 70px;
+
+}
+.photograph-even p:nth-child(1){
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.photograph-six p{
+    font-size: 15px;
+    margin-top: 40px;
+    line-height: 20px;
+    text-align:justify;
+    text-indent:2em;
+}
+.photograph-five input{
+    width: 81px;
+    height: 23px;
+    background-color: white;
+    color: #850913;
+    position: absolute;
+    top: 335px;
+    left: 510px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+/* 选择拍摄 */
+.staff{
+    width: 1200px;
+    height: 760px;
+    
+    position: relative;
+}
+.staff-one{
+    width: 1200px;
+    height: 108px;
+   
+    line-height: 108px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.staff-one div{
+    width: 120px;
+    height: 1px;
+    background-color: #850913;
+    position: absolute;
+    top: 80px;
+    left: 533px;
+
+}
+.staff-two{
+    width: 1194px;
+    height: 525px;
+  
+    margin-top: 20px;
+    display: flex;
+    
+}
+.staff-three{
+    width: 290px;
+    height: 525px;
+    margin-right: 10px;
+}
+.staff-three P:nth-child(2){
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #5d5d5d;
+}
+.staff-three P:nth-child(3){
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #5d5d5d;
+}
+.staff-three P:nth-child(4){
+    line-height: 20px;
+    color: #999999;
+}
+.staff-three:nth-child(4){
+    margin-right: 0px;
+}
+.staff-three:hover{
+    background: #850913;
+    transition: 1s all;
+}
+.staff input{
+    width: 119px;
+    height: 30px;
+    position: absolute;
+    left: 535px;
+    top: 707px;
+    background-color: #850913;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+
+
+/* 底部 */
+footer{
+   width: 100%;
+   height: 92px;
+   background-color: #666666;
+}
+.footer{
+    width: 1200px;
+    height: 92px;
+    
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: 14px;
+    line-height: 92px;
+}

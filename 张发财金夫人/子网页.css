@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f1{
+    margin: 0 auto;
+}
+.f2{
+    float: left;
+}
+.f3{
+    float: right;
+}
+
+/* 头部 */
+header{
+    width: 1200px;
+    height: 115px;
+    /* background-color: aquamarine; */
+}
+.logo{
+    margin-top: 4px;
+}
+nav{
+    width: 735px;
+    height: 115px;
+    position: relative;
+}
+nav input{
+    width: 220px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid #333333;
+    margin-right: 50px;
+    margin-top: 14px;
+    color: #999999;
+    padding-left: 7px;
+    font-size: 14px;
+}
+i{
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    color: #a2a2a2;
+    
+}
+nav span{
+    color: #343434;
+    font-size: 16px;
+}
+.nav{
+    width: 735px;
+    height: 35px;
+    margin-top: 60px;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.nav ul li{
+    height: 37px;
+    line-height: 35px;
+}
+.nav ul li a{
+     color: #333333;
+      text-decoration: none;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #850913;
+   
+}
+
+/* 大图 */
+
+.map img{
+    width: 100%;
+}
+.main{
+    width: 1200px;
+    height: 810px;
+    /* background-color: #850913; */
+}
+.main-nav{
+    width: 1190px;
+    height: 48px;
+    border-bottom: 1px solid #666666;
+}
+.main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.main-nav ul li{
+    color: #7f7f7f;
+    line-height: 58px;
+    margin-left: 10px;
+}
+.main-nav ul li:first-child{
+    margin-right: 10px;
+    color: #494949;
+}
+.main-nav ul li:last-child{
+    color: #850913;
+}
+/* 左边导航 */
+
+
+.left{
+    width: 130px;
+    height: 350px;
+   margin-left: 10px;
+    border-left: 1px solid #494949;
+}
+.left h2{
+    font-size: 24px;
+    padding-left: 20px;
+    height: 37px;
+    line-height: 37px;
+   cursor: pointer;
+}
+.left div{
+    font-size: 18px;
+    margin-left: 10px;
+
+    line-height: 45px;
+
+}
+.left div span{
+    float: right;
+}
+.y{
+    width: 130px;
+    height: 130px;
+    display: none;
+    overflow: hidden;
+}
+.y p{
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+   
+}
+.y p:nth-child(1){
+    color: #850913;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右 */
+.border{
+    width: 847px;
+    height: 365px;
+    border: 1px solid #666666;
+    margin-top: 65px;
+     position: relative;
+    
+}
+
+
+
+.tu{
+    width: 240px;
+    height: 362px;
+    background-color: #666666;
+    position: relative;
+    margin-left: -60px;
+    margin-top: -20px;
+}
+
+.tu img{
+    height: 342px;
+    position: absolute;
+    left: -35px;
+    top: -25px;
+}
+.title{
+    height: 50px;
+    border: 1px solid #666666;
+    border-top: none;
+    width: 214px;
+    position: absolute;
+    top: -5px;
+    left: 413px;
+    background: #fff;
+}
+.title div{
+    width: 30px;
+    height: 1px;
+    background-color: #850913;
+    margin-top: 5px;
+}
+.title p:nth-child(3){
+    font-size: 22px;
+    margin-top: -5px;
+    margin-left: 50px;
+    color: #333333;
+    font-weight: bolder;
+}
+.title p:last-child{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+}
+.right{
+    width: 640px;
+    height: 260px;
+    /* background: #7f7f7f; */
+    margin-top: 43px;
+    margin-right: 10px;
+}
+.right p{
+    margin-bottom: 30px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 2em;
+    color: #666666;
+}
+.bottom{
+    width: 937px;
+    height: 205px;
+    /* background: #7f7f7f; */
+    margin-top:60px;
+}
+.center{
+    width: 860px;
+    height: 205px;
+    display: flex;
+ 
+    margin-left: 10px;
+
+}
+.center div{
+    width: 307px;
+    height: 205px;
+    /* background: #343434; */
+}
+.center div:nth-child(2) img{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.center img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.d1{
+    width: 30px;
+    height: 100px;
+    margin-top: 87px;
+}
+
+.d2{
+    width: 30px;
+    height: 100px;
+    margin-top: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 92px;
+    background-color: #666666;
+ }
+ .footer{
+     width: 1200px;
+     height: 92px;
+     
+     text-align: center;
+ }
+ .footer p{
+     color: white;
+     font-size: 14px;
+     line-height: 92px;
+ }
